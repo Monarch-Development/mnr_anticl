@@ -1,0 +1,5 @@
+{
+    "player_logout": "Player Left Game\nID: [%s]\nReason: %s",
+    "player_kicked": "Player Kicked \nID: [%s]\nReason: %s\nAuthor: %s",
+    "player_banned": "Player Banned \nID: [%s]\nReason: %s\nAuthor: %s"
+}
