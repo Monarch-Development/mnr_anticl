@@ -2,7 +2,7 @@ local config = require 'config.shared'
 
 local function sendVisualLog(source, action, reason, author)
     local coords = GetEntityCoords(GetPlayerPed(source))
-    local data = { id = source, action = action, reason = reason, author = author }
+    local data = { id = source, action = action, coords = coords, reason = reason, author = author }
     local nearbyPlayers = lib.getNearbyPlayers(coords, config.drawDistance + 20.0)
     for i = 1, #nearbyPlayers do
         local player = nearbyPlayers[i]
